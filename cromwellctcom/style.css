@@ -1,0 +1,199 @@
+tml, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Geologica', sans-serif;
+  background-color: #f2efd1;
+  color: #333;
+  line-height: 1.6;
+  box-sizing: border-box;
+}
+
+body {
+  padding-bottom: 5%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: 'Geologica', sans-serif;
+  background-color: #f2efd1;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+  font-weight: bold;
+}
+
+p {
+  margin: 0 0 15px;
+}
+
+input, button, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.main-content {
+  width: 100%;
+  padding: 2%;
+  overflow: hidden;
+}
+
+.welcome-section, .pierson-update, .other-news {
+  float: left;
+  width: 31%;
+  padding: 2%;
+  box-sizing: border-box;
+  margin: 1%;
+}
+
+.welcome-section img {
+  width: 100%;
+  height: auto;
+  margin: 2% 0;
+}
+
+.about-content {
+  width: 96%;
+  margin: 2% auto;
+}
+
+.contact-us {
+  padding: 2%;
+  max-width: 800px;
+  margin: 2% auto;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.input-box, .textarea-box {
+  width: 100%;
+  border: 1px solid black;
+  background-color: #f2efd1;
+  margin: 15px 0;
+  box-sizing: border-box;
+}
+
+.input-box {
+  height: 40px;
+}
+
+.textarea-box {
+  height: 100px;
+}
+
+.submit-button {
+  width: 120px;
+  height: auto;
+  background-color: #921a40;
+  color: #f2efd1;
+  text-align: center;
+  padding: 10px;
+  line-height: 1.4;
+  border-radius: 10px;
+  margin: 20px auto;
+  display: block;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #5a1e31;
+  color: #f2efd1;
+  text-align: center;
+  padding: 1%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.top-bar {
+  background-color: #921a40;
+  color: #f2efd1;
+  width: 100%;
+  padding: 1%;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  float: left;
+  width: 15%;
+}
+
+.logo img {
+  max-height: 50px;
+  width: auto;
+}
+
+.nav-links {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.nav-links a {
+  color: #f2efd1;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 1%;
+  transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: #7d1638;
+  border-radius: 5px;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2%;
+  width: 100%;
+  margin-top: 2%;
+  box-sizing: border-box;
+}
+
+.info-grid section {
+  padding: 2%;
+}
+
+.map {
+  width: 100%;
+  max-width: 90%;
+  margin: 2% auto;
+  padding: 2%;
+}
+
+@media (max-width: 768px) {
+  .welcome-section, .pierson-update, .other-news {
+    width: 100%;
+    float: none;
+    margin: 0;
+  }
+  
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+}
